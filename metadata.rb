@@ -8,11 +8,11 @@ version          '2.2.0'
 source_url       'https://github.com/mdsol/marathon_cookbook'
 issues_url       'https://github.com/mdsol/marathon_cookbook/issues'
 
-%w(centos ubuntu).each do |os|
+%w[centos ubuntu].each do |os|
   supports os
 end
 
 # Cookbook dependencies
-%w(java apt yum mesos poise-service).each do |cb|
+%w[java apt yum mesos poise-service].each do |cb|
   depends cb
 end
