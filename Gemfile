@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'berkshelf'
 gem 'chefspec'
-gem 'rubocop'
+gem 'rubocop', '~> 0.66.0'
 gem 'serverspec'
 
 gem 'chef', '~> 12.0'
