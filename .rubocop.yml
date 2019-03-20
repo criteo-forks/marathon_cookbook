@@ -1,12 +1,16 @@
+---
+
 ### Disable line length constraint
 Metrics/LineLength:
   Max: 140
 
 ### Comma after each line in a list
-Style/TrailingCommaInLiteral:
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: comma
+Style/TrailingCommaInHashLiteral:
   EnforcedStyleForMultiline: comma
 
 ### Align hashes as a table
-Style/AlignHash:
+Layout/AlignHash:
   EnforcedColonStyle: table
   EnforcedHashRocketStyle: table
