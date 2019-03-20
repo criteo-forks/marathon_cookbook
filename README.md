@@ -57,6 +57,7 @@ Attributes
 * `node['marathon']['user']` - The user to run tasks as on mesos slaves. Default: 'marathon'.
 * `node['marathon']['group']` - The group to run tasks as on mesos slaves. Default: 'marathon'.
 
+* `node['marathon']['java_opts']` - JVM flags. Default: ''.
 * `node['marathon']['jvm']['Xmx512m']` - JVM option. Default: 'true'.
 
 * `node['marathon']['flags']['master']` - The URL of the Mesos master. Default: 'zk://localhost:2181/mesos'.

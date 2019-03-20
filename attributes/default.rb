@@ -13,6 +13,7 @@ default['marathon']['group']              = 'marathon'
 default['marathon']['home']               = '/opt/marathon'
 
 # JVM flags
+default['marathon']['java_opts']          = ''
 default['marathon']['jvm']['Xmx512m']     = true
 
 # Marathon command line flags
