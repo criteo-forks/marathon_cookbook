@@ -37,10 +37,7 @@ environment.
 
 Tested on
 
-* Ubuntu 16.04
-* Ubuntu 14.04
-* CentOS 7.2
-* CentOS 6.8
+* CentOS 7.4
 
 This cookbook includes cross-platform testing support via `test-kitchen`.
 
