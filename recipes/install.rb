@@ -38,7 +38,7 @@ template 'marathon-wrapper' do
   path     ::File.join(node['marathon']['home'], 'wrapper')
   owner    'root'
   group    'root'
-  mode     '0755'
+  mode     '0700'
   source   'wrapper.erb'
   variables(lazy do
     { jar:       ::Dir.glob("#{node['marathon']['home']}/*#{node['marathon']['version']}/target/*/*.jar").first.to_s,
